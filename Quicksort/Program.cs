@@ -25,6 +25,8 @@ namespace Quicksort
                 n = Int32.Parse(s);
                 if (n <= 20)
                     break;
+                else
+                    Console.WriteLine("\nArray can have maximum 20 elements\n");
             }
         }
         static void Main(string[] args)
