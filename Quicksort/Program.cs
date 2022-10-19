@@ -115,6 +115,8 @@ namespace Quicksort
 
             myList.input();
 
+            myList.q_sort(0, myList.getSize() - 1);
+
 
         }
     }
