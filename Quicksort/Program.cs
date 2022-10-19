@@ -82,6 +82,12 @@ namespace Quicksort
                     mov_count++;
                 }
             }
+
+            if (low < j)
+            {
+                swap(low, j);
+                mov_count++;
+            }
         }
         static void Main(string[] args)
         {
