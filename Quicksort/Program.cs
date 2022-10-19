@@ -113,6 +113,8 @@ namespace Quicksort
         {
             Program myList = new Program();
 
+            myList.input();
+
 
         }
     }
