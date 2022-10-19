@@ -31,6 +31,9 @@ namespace Quicksort
             Console.WriteLine("\n==================");
             Console.WriteLine("Enter Array Elements");
             Console.WriteLine("\n==================");
+
+            //get array elements
+            for (int i = 0; i < n; i++);
         }
         static void Main(string[] args)
         {
