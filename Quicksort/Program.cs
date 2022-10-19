@@ -54,6 +54,11 @@ namespace Quicksort
             int pivot, i, j;
             if (low > high)
                 return;
+
+            i = low + 1;
+            j = high;
+
+            pivot = arr[low]; 
         }
         static void Main(string[] args)
         {
