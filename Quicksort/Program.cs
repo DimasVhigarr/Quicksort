@@ -92,6 +92,10 @@ namespace Quicksort
 
             q_sort(j + 1, high);
         }
+        void display()
+        {
+
+        }
         static void Main(string[] args)
         {
         }
