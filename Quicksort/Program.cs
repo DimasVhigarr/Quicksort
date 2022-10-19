@@ -119,6 +119,9 @@ namespace Quicksort
 
             myList.display();
 
+            Console.WriteLine("\n\nPress Enter to Exit.");
+            Console.Read();
+
 
         }
     }
