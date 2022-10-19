@@ -18,7 +18,10 @@ namespace Quicksort
 
         void input()
         {
+            while (true)
+            {
 
+            }
         }
         static void Main(string[] args)
         {
