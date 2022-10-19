@@ -61,6 +61,13 @@ namespace Quicksort
             pivot = arr[low]; 
 
             while(i <= j)
+            {
+                while ((arr[i] <= pivot) && (i <= high))
+                {
+                    i++;
+                    cmp_count++;
+                }
+            }
         }
         static void Main(string[] args)
         {
