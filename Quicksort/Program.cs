@@ -16,6 +16,10 @@ namespace Quicksort
         //number of element in array
         private int n;
 
+        void input()
+        {
+
+        }
         static void Main(string[] args)
         {
         }
