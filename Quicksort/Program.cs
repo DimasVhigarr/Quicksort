@@ -107,10 +107,13 @@ namespace Quicksort
         }
         int getSize()
         {
-            return n;
+            return (n);
         }
         static void Main(string[] args)
         {
+            Program myList = new Program();
+
+
         }
     }
 }
