@@ -59,6 +59,8 @@ namespace Quicksort
             j = high;
 
             pivot = arr[low]; 
+
+            while(i <= j)
         }
         static void Main(string[] args)
         {
