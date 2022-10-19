@@ -40,6 +40,11 @@ namespace Quicksort
                 arr[i] = Int32.Parse(s1);
             }
         }
+        //swaps the element at index x with element at index y
+        void swap(int x, int y)
+        {
+
+        }
         static void Main(string[] args)
         {
         }
